@@ -1,0 +1,33 @@
+  <!DOCTYPE html>
+<html>
+<head>
+  <title class="tc">Contact Us</title>
+  
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon (1).ico">
+  </style>
+</head>
+<body class="contactbody">
+  <div class="contactdiv" >
+    <h1 class="h1c">Contact Us</h1>
+    <form id="contact-form" action="process_form.php" method="POST">
+      <label class="inquiry" for="name" >Name:</label>
+      <input type="text" class="inquiry" id="name" name="name" required><br><br>
+      
+      <label class="inquiry" for="email" >Email:</label>
+      <input type="email" class="inquiry" id="email" name="email" required><br><br>
+      
+      <label class="inquiry" for="message">Inquiries:</label><br>
+      <textarea class="inquiry" id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+      
+      <input class="inquiry" type="submit" value="Submit">
+    </form>
+  </div>
+
+  <div id="submitted-data"></div>
+
+  <script src="index.js">
+
+  </script>
+  </body>
+  </html>
