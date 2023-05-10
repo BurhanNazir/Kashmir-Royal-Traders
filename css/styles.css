@@ -1,0 +1,179 @@
+
+body {margin: 0; text-align: center;
+     font-family: 'Merriweather', serif;
+color: #40514e;
+line-height: 2;}
+
+     h1{margin: 50px auto 0 auto;
+     font-family: 'sacramento' , cursive;
+font-size: 70px;
+color: #18122B;}
+
+
+     h2{font-family: 'montserrat',sans-serif;
+     font-size: 22px;
+color:#251B37;}
+
+      h3{font-family: 'montserrat',sans-serif;
+     color: #553939;}
+
+
+.top-container {background-color:#7AA874;
+     position: relative;
+     padding-top: 100px;
+     
+     
+
+}
+
+.middle-container{
+     margin: 90px 0;
+     
+     
+}
+hr{ border: dotted #Eaf6f6 6px ;
+     width: 5%;
+     margin: 70px auto;
+border-bottom:none;}
+
+.bottom-container{ background-color:#7AA874;
+     padding: 50px 0 20px;
+     
+     
+}
+.shawl1{position: absolute ;
+right: 250px;
+top: 50px;}
+.shawl2{position: absolute;
+     left: 250px;
+     bottom: 280px;
+     
+}
+.profile {width: 350px;}
+.image {width: 350px;
+
+height: 400px;}
+.para{display: inline-block;}
+.item{display: inline-block;}
+
+division
+.Profilee1{height: 200px;
+margin-right: 50px;}
+.Profilee1 img {height: 200px;
+
+}
+
+.btn {
+     background: #7aa874;
+     background-image: -webkit-linear-gradient(top, #7aa874, 704F4F);
+     background-image: -moz-linear-gradient(top, #7aa874, 704F4F);
+     background-image: -ms-linear-gradient(top, #7aa874, 704F4F);
+     background-image: -o-linear-gradient(top, #7aa874, 704F4F);
+     background-image: linear-gradient(to bottom, #7aa874, 704F4F);
+     -webkit-border-radius: 8;
+     -moz-border-radius: 8;
+     border-radius: 8px;
+     font-family: Arial;
+     color: #ffffff;
+     font-size: 20px;
+     padding: 10px 20px 10px 20px;
+     text-decoration: none;
+   }
+   
+   .btn:hover {
+     background: #18122b;
+     background-image: -webkit-linear-gradient(top, #18122b, #E0D98C);
+     background-image: -moz-linear-gradient(top, #18122b, #E0D98C);
+     background-image: -ms-linear-gradient(top, #18122b, #E0D98C);
+     background-image: -o-linear-gradient(top, #18122b, #E0D98C);
+     background-image: linear-gradient(to bottom, #18122b, #E0D98C);
+     text-decoration: none;
+   }
+   a{color: #18122b;
+     font-family: 'montserrat',sans-serif;
+text-decoration: none;}
+a:hover{color:white;}
+.copyright{color: #eaf6f6;
+font-size: 0.75rem;}
+
+
+.Products{
+     font-size:50px;
+     font-family: 'sacramento' , cursive;
+}
+
+ 
+
+
+/* this portion is for contact page */
+
+
+.contactbody {
+     font-family: 'acramento', sans-serif;
+     background-color: #40514e;
+   }
+   
+   .h1c {
+     text-align: center;
+     color: #ccc4b4;
+     font-family: 'Times New Roman', Times, serif;
+   }
+   
+   form {
+     max-width: 400px;
+     margin: 0 auto;
+     background-color: #ced2d4;
+     padding: 20px;
+     border-radius: 5px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     padding: 30px 30px 30px 30px;
+   }
+   
+   label {
+     font-weight: bold;
+   }
+   
+   input[type="text"],
+   input[type="email"],
+   textarea {
+     width: 100%;
+     padding: 8px;
+     margin-bottom: 10px;
+     border: 1px solid #4b4747;
+     border-radius: 4px;
+     box-sizing: border-box;
+   }
+   
+   textarea {
+     height: 100px;
+   }
+   
+   input[type="submit"] {
+     background-color: #4CAF50;
+     color: white;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+   }
+   
+   input[type="submit"]:hover {
+     background-color: #45a049;
+   }
+   .contactdiv{
+     padding: 30px 0px;
+   }
+   /* .contactdiv form, input{
+     
+   } */
+   .inquiry{
+     font-size: 20px;
+     font-family: 'Times New Roman', Times, serif;   
+}
+/* for mobile view */
+@media screen and (max-width: 1400px){
+     .shawl2{
+          bottom: 250px;
+     }
+
+}
